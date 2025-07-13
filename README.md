@@ -8,7 +8,7 @@
 
 Originally built for 2D infrared (2DIR) spectroscopy, MjÖlnir is versatile enough to handle a wide range of other 2D datasets. Whether you're working with excitation–emission matrices, 2D fluorescence spectra, 2D electronic spectra, or any other dataset arranged in an X–Y–Z format, this tool adapts effortlessly to your needs. A picture of the window is given below 
 
-![Description of the image](image1.png)
+![Description of the image](image.png)
 
 ---
 
