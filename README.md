@@ -14,11 +14,11 @@ Originally built for 2D infrared (2DIR) spectroscopy, MjÖlnir is versatile enou
 
 One of the highlights of MjÖlnir is its smart peak detection system. Using a Laplacian-based algorithm, it can accurately identify peaks even in noisy datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
 
-For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the pump and probe axes. You can fit these slices and overlay multiple cross-sections for direct, side-by-side comparison.
+For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the pump and probe axes. You can fit these slices interactively with just mouse draging and overlay multiple cross-sections for direct, side-by-side comparison.
 
-Background artifacts are handled automatically through spline-based baseline correction. To make sure the correction meets your standards, a visual preview is provided before finalizing the adjustment.
+Background artifacts are handled automatically through spline-based baseline correction. To make sure the correction meets your standards, a visual preview is provided.
 
-When it’s time to present your results, MjÖlnir offers one-click export options in vector formats like PDF and SVG. You can customize fonts, axis labels, color scales, and gridlines to match the style guidelines of your preferred journals, ensuring your figures are ready for publication without extra formatting work.
+When it’s time to present your results, MjÖlnir offers one-click export options in vector formats like SVG, PNG or the data itself. You can customize axis labels, color scales, and gridlines to match your expectation, ensuring your figures are ready for publication with less formatting work.
 
 ---
 
@@ -28,6 +28,6 @@ To keep the analysis consistent and avoid ambiguity, MjÖlnir works with 2D spec
 
 For reliable interpretation across different systems and regional settings, files must use commas `,` as delimiters and periods `.` as decimal points. For example, a valid data point would look like `1950.5`.
 
-This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting.
+This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting. 
 
 ---
