@@ -12,9 +12,9 @@ Originally built for 2D infrared (2DIR) spectroscopy, MjÖlnir is versatile enou
 
 ---
 
-## ⚙️ Core Analytical Features
+## ⚙️ Analytical Features
 
-One of the things I like of MjÖlnir is its peak detection. Using a Laplacian-based algorithm, it can accurately identify peaks even in noisy datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
+One of the things I like of MjÖlnir is its peak detection. Using a Laplacian, it can accurately identify peaks in noisy datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
 
 For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the pump and probe axes. You can fit these slices interactively with just mouse draging and overlay multiple cross-sections for direct, side-by-side comparison.
 
