@@ -31,3 +31,6 @@ For reliable interpretation across different systems and regional settings, file
 This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting. 
 
 ---
+## ✏️ Author's Note
+
+This project was developed independently, without external funding or institutional support. It evolved from a matplotlib-based interactive plotting tool I created I created and later I converted it to MjÖlnir (Pyqt based) with the help of AI tools like Gemini 2.5 flash and Deep seek-R1. It was a personal tool to simplify my own data analysis workflow, and now it is available for other users. 
