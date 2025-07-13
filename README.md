@@ -41,5 +41,5 @@ This project was developed independently, without external funding or institutio
 
 ## 📬 Contact
 
-If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at www.linkedin.com/in/matheshvaithiyanathan
+For now I have only included the functions that are useful for me. If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at www.linkedin.com/in/matheshvaithiyanathan
 
