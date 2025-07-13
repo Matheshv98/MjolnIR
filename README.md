@@ -1,53 +1,33 @@
 # MjÖlnir
 
-**MjÖlnir** is a streamlined tool for visualizing and analyzing any 2D dataset — without writing repetitive Python or MATLAB scripts. Designed to simplify workflows, it lets users inspect, process, and export results on the fly while keeping projects organized and reproducible. By reducing workflow complexity, data isn’t just seen — it’s better understood.
+**MjÖlnir** is a streamlined, user-friendly tool for visualizing and analyzing two-dimensional datasets without the need to write repetitive Python or MATLAB code. It’s designed to simplify your workflow by letting you inspect, process, and export results quickly while keeping all your work organized in one place. The goal is to reduce complexity so your data isn’t just seen, but clearly understood.
 
 ---
 
 ## 📌 Scope
 
-While originally developed for **2D infrared (2DIR) spectroscopy**, MjÖlnir is built to adapt seamlessly to any two-dimensional dataset, including:
-
-- Excitation–emission matrices (EEM)
-- 2D fluorescence spectra
-- 2D electronic spectra
-- Any other X–Y–Z dataset in matrix form
+Originally built for 2D infrared (2DIR) spectroscopy, MjÖlnir is versatile enough to handle a wide range of other 2D datasets. Whether you're working with excitation–emission matrices, 2D fluorescence spectra, 2D electronic spectra, or any other dataset arranged in an X–Y–Z format, this tool adapts effortlessly to your needs.
 
 ---
 
 ## ⚙️ Core Analytical Features
 
-### 🔍 Smart Peak Detection  
-- **Laplacian-based algorithm** for identifying peaks, even in noisy data  
-- Adjustable sensitivity for fine-tuned, precise localization  
+One of the highlights of MjÖlnir is its smart peak detection system. Using a Laplacian-based algorithm, it can accurately identify peaks even in noisy datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
 
-### ✂️ Cross-Section Analysis  
-- Extract and fit slices along both **pump** and **probe** axes  
-- Overlay multiple slices for direct comparison  
+For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the pump and probe axes. You can fit these slices and overlay multiple cross-sections for direct, side-by-side comparison.
 
-### 📉 Automatic Baseline Correction  
-- **Spline-based correction** for background artifact removal  
-- Visual preview of correction to verify quality  
+Background artifacts are handled automatically through spline-based baseline correction. To make sure the correction meets your standards, a visual preview is provided before finalizing the adjustment.
 
-### 🖨️ Publication-Ready Output  
-- One-click export in **vector formats** (PDF/SVG)  
-- Customizable fonts, axis labels, color scales, and grid/tick options  
-- Style outputs to match common journal guidelines  
+When it’s time to present your results, MjÖlnir offers one-click export options in vector formats like PDF and SVG. You can customize fonts, axis labels, color scales, and gridlines to match the style guidelines of your preferred journals, ensuring your figures are ready for publication without extra formatting work.
 
 ---
 
 ## 📥 Data Import Format
 
-To ensure consistent and unambiguous analysis, MjÖlnir requires 2D spectral data in a standardized matrix format:
+To keep the analysis consistent and avoid ambiguity, MjÖlnir works with 2D spectral data saved in a standardized matrix format. In this setup, the first row should contain your probe (X-axis) values, while the first column contains the pump (Y-axis) values. The remaining cells hold the Z-data aligned to these dimensions.
 
-- **First row:** Probe (X-axis) values  
-- **First column:** Pump (Y-axis) values  
-- **Remaining cells:** Z-data values aligned to these dimensions  
+For reliable interpretation across different systems and regional settings, files must use commas `,` as delimiters and periods `.` as decimal points. For example, a valid data point would look like `1950.5`.
 
-**File format requirements:**  
-- Comma `,` as the column delimiter  
-- Period `.` as the decimal separator (e.g., `1950.5`)  
-
-This format prevents ambiguity across different data representations (e.g., Pump vs. Probe axes swaps) and regional settings.
+This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting.
 
 ---
