@@ -41,5 +41,5 @@ This project was developed independently, without external funding or institutio
 
 ## 📬 Contact
 
-If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at mathesh.vaithiyanathan@fu-berlin.de
+If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at mathesh.vaithiyanathan@gmail.com
 
