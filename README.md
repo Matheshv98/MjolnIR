@@ -1,2 +1,2 @@
-# Mj-lnir
+# MjÖlnir
 Mjölnir 
