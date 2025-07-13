@@ -34,3 +34,10 @@ This clear and simple format ensures that your data loads correctly every time, 
 ## ✏️ Author's Note
 
 This project was developed independently, without external funding or institutional support. It evolved from a matplotlib-based interactive plotting tool I created I created and later I converted it to MjÖlnir (Pyqt based) with the help of AI tools like Gemini 2.5 flash and Deep seek-R1. It was a personal tool to simplify my own data analysis workflow, and now it is available for other users. 
+
+---
+
+## 📬 Contact
+
+If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at mathesh.vaithiyanathan@fu-berlin.de
+
