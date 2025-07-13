@@ -33,6 +33,8 @@ For reliable interpretation across different systems and regional settings, file
 This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting. 
 
 ---
+
+---
 ## ✏️ Author's Note
 
 This project was developed independently, without external funding. It evolved from a matplotlib-based interactive plotting tool I created and later I converted it to this (MjÖlnir) Pyqt based tool with the help of AI tools like Gemini 2.5 flash and Deep seek-R1. It was a personal application to simplify my own data analysis workflow, and now it is available for other users. 
