@@ -43,5 +43,5 @@ This python project was developed duing my PhD work in AG Horch, FU Berlin, fund
 
 ## 📬 Contact
 
-For now, I have only included the functions that are useful for me. If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at www.linkedin.com/in/matheshvaithiyanathan
+I have included the functions that were useful for me with 2D-IR data. If you have any questions, suggestions, or improvements for MjÖlnir, feel free to reach out at www.linkedin.com/in/matheshvaithiyanathan
 
