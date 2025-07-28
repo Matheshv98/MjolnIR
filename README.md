@@ -38,6 +38,8 @@ This clear and simple format ensures that your data loads correctly every time, 
 
 This python project was developed duing my PhD work in AG Horch, FU Berlin, funded by the DFG UniSysCat grant (EXC 2008 – 390540038). It began as a custom Matplotlib-based interactive plotting tool and was later transformed into a PyQt-based application with the assistance of AI tools like Gemini 1.5 Flash and DeepSeek-R1. It was a personal application to simplify my own data 2DIR analysis, and now it is available for other users.
 
+To cite, use: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15874435.svg)](https://doi.org/10.5281/zenodo.15874435)
+
 ---
 
 ## 📬 Contact
