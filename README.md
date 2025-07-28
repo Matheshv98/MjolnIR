@@ -37,7 +37,7 @@ This clear and simple format ensures that your data loads correctly every time, 
 ---
 ## ✏️ Author's Note
 
-This project was developed independently, without external funding. It evolved from a matplotlib-based interactive plotting tool I created and later I converted it to this (MjÖlnir) Pyqt based tool with the help of AI tools like Gemini 2.5 flash and Deep seek-R1. It was a personal application to simplify my own data analysis workflow, and now it is available for other users. 
+This python project was developed duing my PhD work in AG Horch, FU Berlin, funded by the DFG UniSysCat grant (EXC 2008 – 390540038). It began as a custom Matplotlib-based interactive plotting tool and was later transformed into a PyQt-based application with the assistance of AI tools like Gemini 1.5 Flash and DeepSeek-R1. It was a personal application to simplify my own data 2DIR analysis, and now it is available for other users.
 
 ---
 
