@@ -1,6 +1,6 @@
 # MjölnIR
 
-**MjÖlnir** is a user-friendly tool for visualizing and analyzing two-dimensional datasets without the need to write repetitive Python or MATLAB code. It’s designed to simplify your workflow by letting you inspect, process, and export results quickly while keeping your work organized as one project. The goal is to reduce complexity so your data isn’t just seen, but clearly understood. Why this name? It is just unique and ends it ends IR. Many other names I considered were already in use. 
+**MjÖlnIR** is a user-friendly tool for visualizing and analyzing two-dimensional datasets without the need to write repetitive Python or MATLAB code. It’s designed to simplify your workflow by letting you inspect, process, and export results quickly while keeping your work organized as one project. The goal is to reduce complexity so your data isn’t just seen, but clearly understood. Why this name? It is just unique and ends it ends IR :) Many other names I considered were already in use. 
 
 ---
 
@@ -14,25 +14,24 @@ Originally built for 2D infrared (2DIR) spectroscopy, MjÖlnir is versatile enou
 
 ## ⚙️ Analytical Features
 
-One of the things I like of MjÖlnir is its peak detection. Using a Laplacian, it can accurately identify peaks in noisy datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
+Using Laplacian, it can identify peaks in noisy or saturated datasets. Sensitivity can be adjusted, giving you precise control over the detection process.
 
-For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the pump and probe axes. You can fit these slices interactively with just mouse draging and overlay multiple cross-sections for direct, side-by-side comparison.
+For deeper analysis, the tool makes it easy to extract and examine cross-sections along both the x and y axes. You can fit these slices interactively with just mouse draging and overlay multiple cross-sections for direct, side-by-side comparison.
 
 Background artifacts are handled automatically through spline-based baseline correction. To make sure the correction meets your standards, a visual preview is provided.
 
-When it’s time to present your results, MjÖlnir offers one-click export options in vector formats like SVG, PNG or the data itself. You can customize axis labels, color scales, and gridlines to match your expectation, ensuring your figures are ready for publication with less formatting work.
+When it’s time to present your results, MjÖlnIR offers one-click export options in vector formats like SVG, PNG or the data itself. You can customize axis labels, color scales, and gridlines to match your expectation, ensuring your figures are ready for publication with less formatting work.
 
 ---
 
 ## 📥 Data Import Format
 
-To keep the analysis consistent and avoid ambiguity, MjÖlnir works with 2D spectral data saved in a standardized matrix format. In this setup, the first row should contain your probe (X-axis) values, while the first column contains the pump (Y-axis) values. The remaining cells hold the Z-data aligned to these dimensions and with no headers.
+To keep the analysis consistent and avoid ambiguity, MjÖlnIR works with 2D spectral data saved in a standardized matrix format. In this setup, the first row should contain your probe (X-axis) values, while the first column contains the pump (Y-axis) values. The remaining cells hold the Z-data aligned to these dimensions and with no headers.
 
 For reliable interpretation across different systems and regional settings, files must use commas `,` as delimiters and periods `.` as decimal points. For example, a valid data point would look like `1950.5`. The file can be a .csv or .txt file. 
 
 This clear and simple format ensures that your data loads correctly every time, with no guesswork about axis assignments or number formatting. 
 
----
 
 ---
 ## ✏️ Author's Note
