@@ -1,6 +1,6 @@
 # MjölnIR
 
-**MjÖlnIR** is a user-friendly tool for visualizing and analyzing two-dimensional datasets without the need to write repetitive Python or MATLAB code. It’s designed to simplify your workflow by letting you inspect, process, and export results quickly while keeping your work organized as one project. The goal is to reduce complexity so your data isn’t just seen, but clearly understood. Why this name? It is just unique and ends it ends IR :) Many other names I considered were already in use. 
+**MjÖlnIR** is a user-friendly tool for visualizing and analyzing two-dimensional datasets without the need to write repetitive Python or MATLAB code. It’s designed to simplify your workflow by letting you inspect, process, and export results quickly while keeping your work organized as one project. The goal is to reduce complexity so your data isn’t just seen, but clearly understood. Why this name? It is just unique and ends it ends IR :) Many other names I considered were already in use.
 
 ---
 
